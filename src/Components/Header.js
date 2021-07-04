@@ -13,9 +13,9 @@ const Header = () => {
 
 
 
-    const [name, setName] = useState('nirmal')
-    const [age, setAge] = useState('46')
-    const [rollNum, setrollNum] = useState('76')
+    // const [name, setName] = useState('nirmal')
+    // const [age, setAge] = useState('46')
+    // const [rollNum, setrollNum] = useState('76')
 
 
 
