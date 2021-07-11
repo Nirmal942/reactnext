@@ -58,22 +58,33 @@ function Home() {
 }
 
 function About() {
+
     return (
+
         <>
-            <div className='containar'>
-                <h1>About us</h1>
-                <h2>Order krna safe hai </h2>
-                <p>10 Tips for Writing Your “About Us” Page
-                    Use facts, not hype.
-                    Seek to inspire trust.
-                    Tell visitors what they want to know.
-                    Specifics are better than bold claims.
-                    Give a peek behind the curtains.
-                    Forge a connection.
-                    Express your values.
-                    List credentials, certifications, awards.
-                </p>
+            <div className='containarbig' style={{ width: '90rem' }}>
+                <img className='/images/logoss.png' src='/images/logoss.png' alt='/images/logoss.png' width='450px' />
+                <div className="card-body">
+                    <h5 className="card-title"> Try Our delicious Pizza </h5>
+
+                    <h1>About us</h1>
+                    <h2>Order krna safe hai </h2>
+                    <p>There’s nothing cookie-cutter about Pizza Hut.
+                        Not our pizzas. Not our people. And definitely not the way we live life.
+                        Around here, we don’t settle for anything less than food we’re proud to serve.
+                        And we don’t just clock in. Not when we can also become our best, make friends,
+                        and have fun while we’re at it. We’re the pizza company that lives life unboxed.
+
+                        We’re not for people who want to blend in: pushing boundaries is part of our heritage.
+                        We have more than 16,000 restaurants and 350,000 team members in more than 100 countries.
+                        Whether it’s the original Stuffed Crust or putting a pizza in outer space, we never stop
+                        driving ourselves to deliver hot pizzas, fast every time – anywhere you want to enjoy it.
+                    </p>
+                </div>
             </div>
+
+
+
         </>
     )
 }
@@ -82,18 +93,37 @@ function About() {
 function Services() {
     return (
         <>
-            <div className='containar'>
-                <h1>Services</h1>
-                <p>
 
-                    A service is a transaction in which no physical
-                    goods are transferred from the seller to the buyer.
-                    The benefits of such a service are held to be demonstrated by
-                    the buyer's willingness to make the exchange. Public services are
-                    those that society as a whole pays for. Wikipedia
+            <div className='containarbig' style={{ width: '90rem' }}>
+                <img className='/images/logs.png' src='/images/logs.png' alt='/images/logs.png' width='450px' />
+                <div className="card-body">
+                    <h5 className="card-title"> Try Our delicious Pizza </h5>
 
-                </p>
+                    <p>There’s nothing cookie-cutter about Pizza Hut.
+                        Not our pizzas. Not our people. And definitely not the way we live life.
+                        Around here, we don’t settle for anything less than food we’re proud to serve.
+                        And we don’t just clock in. Not when we can also become our best, make friends,
+                        and have fun while we’re at it. We’re the pizza company that lives life unboxed.
+
+                        We’re not for people who want to blend in: pushing boundaries is part of our heritage.
+                        We have more than 16,000 restaurants and 350,000 team members in more than 100 countries.
+                        Whether it’s the original Stuffed Crust or putting a pizza in outer space, we never stop
+                        driving ourselves to deliver hot pizzas, fast every time – anywhere you want to enjoy it.
+                    </p>
+                    <h1>Services</h1>
+                    <p>
+
+                        A service is a transaction in which no physical
+                        goods are transferred from the seller to the buyer.
+                        The benefits of such a service are held to be demonstrated by
+                        the buyer's willingness to make the exchange. Public services are
+                        those that society as a whole pays for. Wikipedia
+
+                    </p>
+                </div>
             </div>
+
+
         </>
     )
 }
@@ -101,14 +131,48 @@ function Services() {
 function Contactus() {
     return (
         <>
-            <div className='containar'>
-                <h1>Contact us</h1>
-                <p>Apple Inc. is an American multinational technology
-                    company headquartered in Cupertino, California, that designs,
-                    develops, and sells consumer electronics, computer software,
-                    and online services. Wikipedia
-                </p>
+            <div className='containarbig' style={{ width: '18rem' }}>
+                <img className='/images/log.png' src='/images/log.png' alt='/images/log.png' />
+                <div className="card-body">
+                    <h5 className="card-title"> Try Our delicious Pizza </h5>
+
+                    <p>There’s nothing cookie-cutter about Pizza Hut.
+                        Not our pizzas. Not our people. And definitely not the way we live life.
+                        Around here, we don’t settle for anything less than food we’re proud to serve.
+                        And we don’t just clock in. Not when we can also become our best, make friends,
+                        and have fun while we’re at it. We’re the pizza company that lives life unboxed.
+
+                        We’re not for people who want to blend in: pushing boundaries is part of our heritage.
+                        We have more than 16,000 restaurants and 350,000 team members in more than 100 countries.
+                        Whether it’s the original Stuffed Crust or putting a pizza in outer space, we never stop
+                        driving ourselves to deliver hot pizzas, fast every time – anywhere you want to enjoy it.
+                    </p>
+
+                </div>
             </div>
+
+            <div className='containarbig' style={{ width: '18rem' }}>
+                <img className='/images/log.png' src='/images/log.png' alt='/images/log.png' />
+                <div className="card-body">
+                    <h5 className="card-title"> Try Our delicious Pizza </h5>
+
+                    <p>There’s nothing cookie-cutter about Pizza Hut.
+                        Not our pizzas. Not our people. And definitely not the way we live life.
+                        Around here, we don’t settle for anything less than food we’re proud to serve.
+                        And we don’t just clock in. Not when we can also become our best, make friends,
+                        and have fun while we’re at it. We’re the pizza company that lives life unboxed.
+
+                        We’re not for people who want to blend in: pushing boundaries is part of our heritage.
+                        We have more than 16,000 restaurants and 350,000 team members in more than 100 countries.
+                        Whether it’s the original Stuffed Crust or putting a pizza in outer space, we never stop
+                        driving ourselves to deliver hot pizzas, fast every time – anywhere you want to enjoy it.
+                    </p>
+
+                </div>
+            </div>
+
+
+
         </>
     )
 }
@@ -116,10 +180,10 @@ function Contactus() {
 
 function Products() {
 
-    const [count, setCount] = useState(0)
-    useEffect(() => {
-        console.warn(useEffect)
-    })
+    const [totalCount, setTotalCount] = useState(0)
+
+    console.log("count", totalCount);
+
 
     const productsList = [
         {
@@ -193,17 +257,24 @@ function Products() {
         },
 
 
+
+
     ]
 
     const productLayout = productsList.map((item, index) => {
         return (
             <div className='containar' key={'index' + index}>
-                <Product data={item} />
+                <Product data={item} setTotalCount={setTotalCount} totalCount={totalCount} />
             </div>
+
         )
     })
+
+
+
     return (
         <>
+
             <h1>Products of pizza</h1>
             <h1>we provide one greatest service across all small areas around the states. </h1>
             <p>you can check all our pizzas </p>
@@ -212,6 +283,8 @@ function Products() {
 
             {productLayout}
 
+
+            <h2>Total Pizza order : {totalCount}</h2>
 
 
             {/* <div className='containar'>

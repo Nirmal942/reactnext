@@ -6,10 +6,6 @@ import Product from './Components/Product';
 
 import SearchAppBar from './Components/SearchAppBar';
 
-import Recipe from './Components/Recipe';
-
-import ContainedButtons from './Components/ContainedButtons'
-
 
 import Employee from './Components/Employee';
 
@@ -45,11 +41,6 @@ function App() {
         <SearchAppBar />   <ReactNav />      <Header />
 
         <hr />
-        <hr />
-        <ContainedButtons />
-        <hr />
-        <hr />
-        <Recipe />
         <hr />
         <hr />
         <Employee />

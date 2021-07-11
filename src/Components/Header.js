@@ -12,10 +12,9 @@ const Header = () => {
     };
 
 
-
-    // const [name, setName] = useState('nirmal')
-    // const [age, setAge] = useState('46')
-    // const [rollNum, setrollNum] = useState('76')
+    const [name, setName] = useState('nirmal')
+    const [age, setAge] = useState('46')
+    const [rollNum, setrollNum] = useState('76')
 
 
 
@@ -27,11 +26,6 @@ const Header = () => {
             <button onClick={() => setValue(value + 1)}>increment </button>
             <button onClick={() => setValue(value - 1)}>decrement </button>
             <button onClick={reset}>reset </button>
-
-
-
-
-
 
 
             <p><span>Don't Waite !</span></p>
